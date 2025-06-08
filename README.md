@@ -108,20 +108,15 @@ python manage.py runserver
 Home Page: http://127.0.0.1:8000/
 Admin Panel: http://127.0.0.1:8000/admin/
 ```
-
+---
 🖼️ How to Use
 Go to Admin Panel → Log in as superuser
-
 Add a new Product with:
-
 Name
-
 Description
-
 Image upload
-
 Go to Home Page → The product gallery will display your uploaded products/images.
-
+---
 🗄 Media & Static Files Configuration
 settings.py
 ```
@@ -130,12 +125,14 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / "media"
 urls.py
-```
+
+
 from django.conf import settings
 from django.conf.urls.static import static
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```
 ✨ Example Screenshot
 (Optional — add a screenshot of your product gallery here)
 
@@ -146,25 +143,21 @@ if settings.DEBUG:
 ✅ Add upload validation (image type, size limits)
 ✅ Use Bootstrap or TailwindCSS for better design
 ✅ Deploy to Heroku / Vercel / PythonAnywhere
-
+---
 📜 License
 This project is licensed under the MIT License.
-
+---
 🙌 Acknowledgements
 Django Documentation
 
 Pillow Documentation
-
+---
 🤝 Contributing
 Fork the project
-
 Create your feature branch (git checkout -b feature/AmazingFeature)
-
 Commit your changes (git commit -m 'Add some AmazingFeature')
-
 Push to the branch (git push origin feature/AmazingFeature)
-
 Open a Pull Request
-
+---
 📞 Contact
 Created by HARIHARANS24 → feel free to contact me!
