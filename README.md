@@ -68,8 +68,7 @@ imagegallery/
 ├── db.sqlite3            # SQLite Database
 ├── README.md             # Project README (this file)
 └── requirements.txt      # Project requirements
-
-
+```
  Installation & Setup Instructions
 
 1️⃣ Clone the repository
@@ -77,6 +76,7 @@ imagegallery/
 git clone https://github.com/yourusername/django-image-gallery-gui.git
 cd django-image-gallery-gui
 ```
+
 2️⃣ Create and activate virtual environment (optional)
 ```
 python -m venv venv
