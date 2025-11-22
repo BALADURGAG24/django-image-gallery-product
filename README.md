@@ -8,7 +8,7 @@
 ---  
 
 ## 📋 Description
-
+ 
 **Django Image Gallery GUI** is a beginner-friendly web application that allows users to upload, manage, and display a collection of images through a simple and responsive gallery interface.
 
 It is an ideal project for learning:
