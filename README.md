@@ -5,7 +5,7 @@
 [![Django Version](https://img.shields.io/badge/django-5.x-green)](https://www.djangoproject.com/)  
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)   
 
----   
+---    
      
 ## 📋 Description  
  
