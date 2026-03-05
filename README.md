@@ -43,32 +43,35 @@ It is an ideal project for learning:
 
 ## 📂 Project Structure
 
-```text
-imagegallery/
-├── gallery/
-│   ├── admin.py          # Register Product model
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations/
-│   │   └── __init__.py
-│   ├── models.py         # Product model with ImageField
-│   ├── templates/
-│   │   └── index.html    # Product gallery template
-│   ├── tests.py
-│   ├── urls.py           # App-level URLs
-│   ├── views.py          # product_list and home views
-├── imagegallery/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py       # Project settings
-│   ├── urls.py           # Project-level URLs
-│   ├── wsgi.py
-├── media/                # Uploaded images (auto-created)
-├── static/               # Static files (optional, manual create)
-├── manage.py
-├── db.sqlite3            # SQLite Database
-├── README.md             # Project README (this file)
-└── requirements.txt      # Project requirements
+```
+Directory structure:
+└── baladurgag24-django-image-gallery-product/
+    ├── README.md
+    ├── db.sqlite3
+    ├── LICENSE
+    ├── manage.py
+    ├── gallery/
+    │   ├── __init__.py
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── models.py
+    │   ├── tests.py
+    │   ├── urls.py
+    │   ├── views.py
+    │   ├── __pycache__/
+    │   ├── migrations/
+    │   │   ├── 0001_initial.py
+    │   │   ├── __init__.py
+    │   │   └── __pycache__/
+    │   └── templates/
+    │       └── index.html
+    └── imagegallery/
+        ├── __init__.py
+        ├── asgi.py
+        ├── settings.py
+        ├── urls.py
+        ├── wsgi.py
+        └── __pycache__/
 ```
 
 ---
